@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+hr {
+  border: 1px solid #a19898;
+  width: 1250px;
+  margin-top: -18px;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 12px;
+}
+
+p {
+  width: 450px;
+}
+
+/* Styling the Navbar */
+
+.nav {
+  background-color: #f55a5a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-logo {
+  margin-right: 10px;
+  width: 24px;
+}
+
+.nav-text {
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+
+  color: #ffffff;
+}
+
+/* Designing the hero section */
+
+.hero {
+  display: flex;
+  padding: 5% 5%;
+}
+.hero-image {
+  border-radius: 12px;
+}
+
+.hero-text {
+  width: 500px;
+  margin: 8% 45px;
+}
+.location {
+  width: 10px;
+}
+
+.country {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.17em;
+  margin-left: 10px;
+}
+
+.maps {
+  margin-left: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #918e9b;
+}
